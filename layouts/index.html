@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div style="max-width:860px; margin:0 auto; padding:4rem 2rem;">
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:3rem;">
+    <div style="flex:1;">
+      <h1 style="font-size:3rem; font-weight:300; margin-bottom:0.4rem; color:#2c2c2c;">{{ .Site.Title }}</h1>
+      <p style="font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase; color:#2a8a90; font-weight:700; margin-bottom:1.5rem;">PhD Researcher in Economics · European University Institute</p>
+      <div style="font-size:1rem; line-height:1.85; color:#2c2c2c;">{{ .Content }}</div>
+    </div>
+    <div style="flex-shrink:0; padding-top:0.25rem;">
+      <img src="/img/photo.jpg" style="width:210px; height:210px; border-radius:50%; object-fit:cover;" onerror="this.style.display='none'">
+    </div>
+  </div>
+</div>
+{{ end }}

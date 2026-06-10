@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Alessia Papini"
+theme = "hugo-researcher"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "PhD Researcher in Economics · European University Institute"
+  katex = false
+
+[params.style]
+  fontFamily = "Lato"
+  fontSize = "12pt"
+  colorBlack = "#2c2c2c"
+  colorRed = "#2a8a90"
+  pageWidth = "900px"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 3
