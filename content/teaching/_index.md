@@ -2,14 +2,28 @@
 title: "Teaching"
 ---
 
-##### Teaching Assistant
+##### Teaching Assistant · European University Institute
 
-**Macroeconomics I** (PhD) · European University Institute · Fall 2025
+**Macroeconomics I** (PhD) · Fall 2025
 
 Instructor: [Alexander Ludwig](https://alexander-ludwig.com)
 
 ---
 
-**International Economics and Microeconomics** · [Politecnico di Milano](https://www.polimi.it) · 2024–25
+##### Teaching Assistant · [Politecnico di Milano](https://www.polimi.it)
 
-Instructors: [Lucia Tajoli](https://www.som.polimi.it/faculty/tajoli-lucia/) and [Giulia Felice](https://sites.google.com/site/giuliafelicehomepage/)
+**Microeconomics** · Spring 2025
+
+Instructor: [Lucia Tajoli](https://www.som.polimi.it/faculty/tajoli-lucia/)
+
+---
+
+**International Economics** · Spring 2024
+
+Instructor: [Giulia Felice](https://sites.google.com/site/giuliafelicehomepage/)
+
+---
+
+**Microeconomics** · Spring 2024
+
+Instructor: [Lucia Tajoli](https://www.som.polimi.it/faculty/tajoli-lucia/)
