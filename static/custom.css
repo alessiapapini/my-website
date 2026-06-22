@@ -23,3 +23,8 @@ h1 {
 div[style*="margin-top: 1.5rem"] p:first-child {
   font-size: 14pt;
 }
+
+.container p {
+  margin-bottom: 1.4rem;
+  line-height: 1.7;
+}
