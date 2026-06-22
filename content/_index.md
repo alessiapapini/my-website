@@ -5,6 +5,6 @@ title: "Alessia Papini"
 
 My research focuses on fiscal policy and household expectations.
 
-Here you can find my [research](/research/) and my [CV](/files/cv.pdf).
+Here you can find my [research](/my-website/research/) and my [CV](/my-website/files/cv.pdf).
 
 **Research interests:** Fiscal Policy · Household Expectations · Applied Macroeconomics
