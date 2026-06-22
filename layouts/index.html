@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row" style="margin-top: 3rem;">
+    <div class="col-sm-8">
+      <h1 style="font-size: 2.5rem; font-weight: 300;">{{ .Site.Title }}</h1>
+      <p style="color: #2a8a90; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600;">PhD Researcher in Economics · European University Institute</p>
+      {{ .Content }}
+      <div style="margin-top: 1.5rem;">
+        <a href="/files/cv.pdf" class="btn btn-primary" style="background-color: #2a8a90; border-color: #2a8a90; margin-right: 0.5rem;">CV</a>
+        <a href="/research/" class="btn btn-primary" style="background-color: #2a8a90; border-color: #2a8a90; margin-right: 0.5rem;">Research</a>
+        <a href="/teaching/" class="btn btn-primary" style="background-color: #2a8a90; border-color: #2a8a90;">Teaching</a>
+      </div>
+      <div style="margin-top: 1.5rem;">
+        <a href="mailto:alessia.papini@eui.eu" style="color: #2a8a90; margin-right: 1rem;">✉ Email</a>
+        <a href="https://www.linkedin.com/in/alessiapapini99/" style="color: #2a8a90; margin-right: 1rem;">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=_TfWd_0AAAAJ&hl=it" style="color: #2a8a90; margin-right: 1rem;">Scholar</a>
+        <a href="https://x.com/alespapini" style="color: #2a8a90;">𝕏 Twitter</a>
+      </div>
+    </div>
+    <div class="col-sm-4" style="text-align: center; padding-top: 1rem;">
+      <img src="/img/photo.jpg" alt="Alessia Papini" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+{{ end }}
