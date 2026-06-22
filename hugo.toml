@@ -8,7 +8,6 @@ theme = "hugo-researcher"
 
 [params]
   author = "Alessia Papini"
-  author = "Alessia Papini"
   description = "PhD Researcher in Economics · European University Institute"
   katex = false
 
