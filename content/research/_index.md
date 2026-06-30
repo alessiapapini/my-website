@@ -7,9 +7,7 @@ title: "Research"
 
 **Fiscal Policy and Household Over-Optimism** · 2026
 
-This paper studies whether fiscal policy transmits to the economy through a sentiment channel. Using the ECB Consumer Expectations Survey, I construct individual-level credit-access forecast errors — defined as the difference between a household's expected credit access formed twelve months earlier and its realized value — and study how these errors respond to a nationwide fiscal regime shift in Italy in February 2021. I document systematic and persistent over-optimism: forecast errors increase by up to 7.8 percent of the survey scale, peaking several months after the announcement before gradually declining. The hump-shaped dynamic is consistent with diagnostic expectations models, suggesting that belief distortions constitute an additional channel of fiscal policy transmission. Finally, I show that over-optimistic beliefs translate into active credit-seeking behavior: a one-unit increase in the forecast error is associated with a 0.56 percentage-point higher probability of applying for a consumer loan in the subsequent quarter.
-
-
+This paper studies whether fiscal policy transmits to the economy through a sentiment channel. The post-pandemic European fiscal regime shift moved household credit-access beliefs across the euro area. I study Italy, where the Draghi credibility event of February 2021 provides a sharp, datable domestic amplification of the common European shock. Using the ECB Consumer Expectations Survey, I construct individual-level credit-access forecast errors and estimate their response with the Forecasted Average Treatment estimator, designed for settings of universal treatment. I document systematic and persistent over-optimism: forecast errors increase by up to 7.8 percent of the survey scale, peaking several months after the announcement before gradually declining. Finally, I show that over-optimistic beliefs are associated with active credit-seeking behavior: a one-unit increase in the forecast error is associated with a 0.78 percentage-point higher probability of applying for credit in the subsequent quarter.
 
 ---
 
