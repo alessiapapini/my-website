@@ -4,7 +4,7 @@ title: "Alessia Papini"
 
 
 
-I am a PhD Researcher in Economics at the [European University Institute](https://www.eui.eu) in Florence, supervised by [Giancarlo Corsetti](https://sites.google.com/site/giancarlocorsetti/) and [Alexander Ludwig](https://alexander-ludwig.com).
+I am a PhD Researcher in Economics at the [European University Institute](https://www.eui.eu) supervised by [Giancarlo Corsetti](https://sites.google.com/site/giancarlocorsetti/) and [Alexander Ludwig](https://alexander-ludwig.com).
 
 
 My research focuses on fiscal policy and household expectations.
