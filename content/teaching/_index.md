@@ -8,7 +8,7 @@ Teaching Assistant to Prof. [Alexander Ludwig](https://alexander-ludwig.com)
 
 ---
 
-**Introductory Econometrics** · [New York University Florence](https://florence.nyu.edu) · Fall 2026
+**Introductory Econometrics** · [New York University Florence](https://nyu.edu) · Fall 2026
 
 Teaching Assistant to Prof. Giampiero Gallo
 
