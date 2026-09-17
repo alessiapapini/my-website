@@ -8,12 +8,6 @@ Teaching Assistant to Prof. [Alexander Ludwig](https://alexander-ludwig.com)
 
 ---
 
-**Introductory Econometrics** · [New York University Florence](https://nyu.edu) · Fall 2026
-
-Teaching Assistant to Prof. Giampiero Gallo
-
----
-
 **Microeconomics** · [Politecnico di Milano](https://www.polimi.it) · Spring 2024, Spring 2025
 
 Teaching Assistant to Prof. [Lucia Tajoli](https://www.som.polimi.it/faculty/tajoli-lucia/)
