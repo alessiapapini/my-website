@@ -2,7 +2,7 @@
 title: "Alessia Papini"
 ---
 
-I'm a Ph.D. candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics).
+I'm a Ph.D. candidate in Economics at the [European University Institute](https://www.eui.eu).
 
 My research interests are in applied macroeconomics, fiscal policy, and household expectations.
 
