@@ -4,7 +4,7 @@ title: "Research"
 
 **Fiscal Policy and Household Over-Optimism**
 
-<span style="color:#888; font-size:0.92rem; font-style:italic;">Presented at: EUI May Forum (2026)</span>
+<span style="color:#999; font-size:0.9rem; font-style:italic;">Presented at: EUI May Forum (2026)</span>
 
 **Layoff Announcements and Consumption Behavior** · with [Ludovic Roussel](https://ludovicroussel.github.io)
 
