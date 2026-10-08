@@ -1,18 +1,68 @@
 {{ define "main" }}
-<div class="container">
-  <div class="row" style="margin-top: 4rem;">
-    <div class="col-sm-8">
-      <h1 style="font-size: 3rem; font-weight: 300; font-family: Lato, sans-serif;">{{ .Site.Title }}</h1>
-      <div style="margin-top: 1.8rem; font-family: Lato, sans-serif; font-size: 13.5pt; line-height: 1.8;">{{ .Content }}</div>
-      <div style="margin-top: 1.5rem; font-family: Lato, sans-serif;">
-        <a href="mailto:alessia.papini@eui.eu" style="color: #2a8a90; margin-right: 1.2rem; text-decoration: none;">✉ Email</a>
-        <a href="https://www.linkedin.com/in/alessiapapini99/" style="color: #2a8a90; margin-right: 1.2rem; text-decoration: none;">LinkedIn</a>
-        <a href="https://scholar.google.com/citations?user=_TfWd_0AAAAJ&hl=it" style="color: #2a8a90; margin-right: 1.2rem; text-decoration: none;">Scholar</a>
-        <a href="https://x.com/alespapini" style="color: #2a8a90; text-decoration: none;">𝕏 Twitter</a>
-      </div>
-    </div>
-    <div class="col-sm-4" style="text-align: center; padding-top: 1rem;">
-      <img src="/my-website/img/photo.jpg" alt="Alessia Papini" style="border-radius: 50%; width: 240px; height: 240px; object-fit: cover;">
+<style>
+  body { background-color: #f0f7f7; }
+  .ap-main {
+    max-width: 820px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+  }
+  .ap-photo img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+  .ap-bio h1 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    font-family: Lato, sans-serif;
+    margin-bottom: 1.4rem;
+    color: #1a1a1a;
+  }
+  .ap-bio p {
+    font-size: 12pt;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-family: Lato, sans-serif;
+    color: #2c2c2c;
+  }
+  .ap-bio a { color: #2a8a90; text-decoration: none; }
+  .ap-bio a:hover { text-decoration: underline; }
+  .ap-social {
+    margin-top: 1.6rem;
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+  }
+  .ap-social a {
+    color: #2a8a90;
+    font-size: 0.92rem;
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+  }
+  .ap-social a:hover { text-decoration: underline; }
+  @media (max-width: 600px) {
+    .ap-main { flex-direction: column; align-items: center; }
+    .ap-bio h1 { font-size: 1.8rem; text-align: center; }
+  }
+</style>
+
+<div class="ap-main">
+  <div class="ap-photo">
+    <img src="/my-website/img/photo.jpg" alt="Alessia Papini">
+  </div>
+  <div class="ap-bio">
+    <h1>Alessia Papini</h1>
+    {{ .Content }}
+    <div class="ap-social">
+      <a href="mailto:alessia.papini@eui.eu">✉ Email</a>
+      <a href="https://www.linkedin.com/in/alessiapapini99/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=_TfWd_0AAAAJ&hl=it">Scholar</a>
+      <a href="https://x.com/alespapini">𝕏 Twitter</a>
     </div>
   </div>
 </div>
