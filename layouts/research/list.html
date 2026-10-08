@@ -1,24 +1,20 @@
-{{ define "main" }}
-{{ partial "nav.html" . }}
-<div class="ap-content">
-  <h1>Research</h1>
-  <p class="ap-section">Working papers</p>
-  <div class="ap-paper">
-    <p><strong>Fiscal Policy and Household Over-Optimism</strong></p>
-    <p class="ap-pres">Presented at: EUI May Forum (2026)</p>
-  </div>
-  <div class="ap-paper">
-    <p><strong>Layoff Announcements and Consumption Behavior</strong> · with <a href="https://ludovicroussel.github.io">Ludovic Roussel</a></p>
-  </div>
-  <p class="ap-section">Pre-PhD publications</p>
-  <div class="ap-paper">
-    <p><strong><a href="https://www.sciencedirect.com/science/article/pii/S0165176524004658">European Politicians and Financial Literacy Activism: Does Financial (In)Stability Matter?</a></strong></p>
-    <p>with Elisa Borghi and Donato Masciandaro · <em>Economics Letters</em> · 2024</p>
-  </div>
-  <div class="ap-hr"></div>
-  <div class="ap-paper">
-    <p><strong><a href="https://link.springer.com/article/10.1007/s40797-024-00287-1">Literacy and Financial Education: Private Providers, Public Certification and Political Preferences</a></strong></p>
-    <p>with Carolina Guerini and Donato Masciandaro · <em>Italian Economic Journal</em> · 2024</p>
-  </div>
-</div>
-{{ end }}
+{{ partial "viviens-head.html" . }}
+<main class="content-page research-page">
+  <h1 class="page-title">Research</h1>
+  <section class="content-section">
+    <h2>Working Papers</h2>
+    <ul class="paper-list">
+      <li><strong>Fiscal Policy and Household Over-Optimism</strong><div class="paper-detail">Presented at: EUI May Forum (2026)</div></li>
+      <li><strong>Layoff Announcements and Consumption Behavior</strong> with <a href="https://ludovicroussel.github.io/">Ludovic Roussel</a></li>
+    </ul>
+  </section>
+  <section class="content-section">
+    <h2>Pre-PhD Publications</h2>
+    <ul class="paper-list">
+      <li><strong><a href="https://www.sciencedirect.com/science/article/pii/S0165176524004658">European Politicians and Financial Literacy Activism: Does Financial (In)Stability Matter?</a></strong> (2024) with Elisa Borghi and Donato Masciandaro<div class="paper-detail"><em>Economics Letters</em></div></li>
+      <li><strong><a href="https://link.springer.com/article/10.1007/s40797-024-00287-1">Literacy and Financial Education: Private Providers, Public Certification and Political Preferences</a></strong> (2024) with Carolina Guerini and Donato Masciandaro<div class="paper-detail"><em>Italian Economic Journal</em></div></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

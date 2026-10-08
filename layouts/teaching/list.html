@@ -1,21 +1,15 @@
-{{ define "main" }}
-{{ partial "nav.html" . }}
-<div class="ap-content">
-  <h1>Teaching</h1>
-  <p class="ap-section">European University Institute</p>
-  <div class="ap-course">
-    <p><strong>Macroeconomics I</strong> (PhD) · Fall 2025, Fall 2026</p>
-    <p class="ap-detail">Teaching Assistant to Prof. <a href="https://alexander-ludwig.com">Alexander Ludwig</a></p>
-  </div>
-  <p class="ap-section">Politecnico di Milano</p>
-  <div class="ap-course">
-    <p><strong>Microeconomics</strong> · Spring 2024, Spring 2025</p>
-    <p class="ap-detail">Teaching Assistant to Prof. <a href="https://www.som.polimi.it/faculty/tajoli-lucia/">Lucia Tajoli</a></p>
-  </div>
-  <div class="ap-hr"></div>
-  <div class="ap-course">
-    <p><strong>International Economics</strong> · Spring 2024</p>
-    <p class="ap-detail">Teaching Assistant to Prof. <a href="https://sites.google.com/site/giuliafelicehomepage/">Giulia Felice</a></p>
-  </div>
-</div>
-{{ end }}
+{{ partial "viviens-head.html" . }}
+<main class="content-page teaching-page">
+  <h1 class="page-title">Teaching</h1>
+  <section class="content-section">
+    <h2>Teaching Assistant (EUI)</h2>
+    <div class="course"><p><strong>Macroeconomics I (PhD)</strong> Fall 2025, Fall 2026</p><p>Prof. Alexander Ludwig</p></div>
+  </section>
+  <section class="content-section">
+    <h2>Teaching Assistant (Politecnico di Milano)</h2>
+    <div class="course"><p><strong>Microeconomics</strong> Spring 2024, Spring 2025</p><p>Prof. Lucia Tajoli</p></div>
+    <div class="course"><p><strong>International Economics</strong> Spring 2024</p><p>Prof. Giulia Felice</p></div>
+  </section>
+</main>
+</body>
+</html>

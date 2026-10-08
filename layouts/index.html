@@ -1,18 +1,38 @@
-{{ define "main" }}
-{{ partial "nav.html" . }}
-<div class="ap-main">
-  <div class="ap-photo">
-    <img src="/my-website/img/photo.jpg" alt="Alessia Papini">
-  </div>
-  <div class="ap-bio">
-    <h1>Alessia Papini</h1>
-    {{ .Content }}
-    <div class="ap-social">
-      <a href="mailto:alessia.papini@eui.eu">✉ Email</a>
-      <a href="https://www.linkedin.com/in/alessiapapini99/">LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=_TfWd_0AAAAJ&hl=it">Scholar</a>
-      <a href="https://x.com/alespapini">𝕏 Twitter</a>
+{{ partial "viviens-head.html" . }}
+<main class="home-page">
+  <div class="home-grid">
+    <div class="portrait-wrap">
+      {{/* Set params.portrait in hugo.toml if auto-discovery does not find your photo. */}}
+      {{ $portrait := .Site.Params.portrait | default "" }}
+      {{ if not $portrait }}
+        {{ $files := slice }}
+        {{ range (readDir "static") }}
+          {{ if .IsDir }}
+            {{ $dirname := .Name }}
+            {{ range (readDir (printf "static/%s" $dirname)) }}
+              {{ if not .IsDir }}{{ $files = $files | append (printf "%s/%s" $dirname .Name) }}{{ end }}
+            {{ end }}
+          {{ else }}
+            {{ $files = $files | append .Name }}
+          {{ end }}
+        {{ end }}
+        {{ range $files }}
+          {{ if and (not $portrait) (findRE `(?i)(portrait|profile|headshot|alessia|photo|foto)` .) (findRE `(?i)\.(jpe?g|png|webp)$` .) }}
+            {{ $portrait = . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ with $portrait }}<img class="portrait" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="Portrait of Alessia Papini">{{ else }}<div class="portrait-missing">Add your portrait using <code>portrait = "images/your-photo.jpg"</code> under <code>[params]</code> in hugo.toml.</div>{{ end }}
+    </div>
+    <div class="home-copy">
+      <h1>Alessia Papini</h1>
+      <p>I'm a Ph.D. candidate in Economics at the <a href="https://www.eui.eu/">European University Institute</a>.</p>
+      <p>My research interests are in applied macroeconomics, fiscal policy, and household expectations.</p>
+      <p>My advisors are <a href="https://www.giancarlocorsetti.com/">Giancarlo Corsetti</a> and <a href="https://alexander-ludwig.com/">Alexander Ludwig</a>.</p>
+      <p>You can find my latest CV <a href="{{ "/files/cv.pdf" | relURL }}">here</a>.</p>
+      {{ with .Site.Params.homeExtra }}<p class="home-extra">{{ . | markdownify }}</p>{{ end }}
     </div>
   </div>
-</div>
-{{ end }}
+</main>
+</body>
+</html>

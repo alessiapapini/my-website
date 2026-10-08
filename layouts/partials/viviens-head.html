@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ $css := resources.Get "css/viviens.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body>
+<header class="site-header">
+  <a class="site-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="{{ .Site.Home.RelPermalink }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home</a>
+    <a href="{{ "research/" | relURL }}" {{ if eq .Section "research" }}aria-current="page"{{ end }}>Research</a>
+    <a href="{{ "teaching/" | relURL }}" {{ if eq .Section "teaching" }}aria-current="page"{{ end }}>Teaching</a>
+  </nav>
+</header>
