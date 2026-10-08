@@ -59,58 +59,17 @@ body {
 </div>
 <hr>
 <div id="content">
-<style>
-  body { background-color: #f0f7f7 !important; }
-  .ap-main {
-    max-width: 820px;
-    margin: 4rem auto;
-    padding: 0 2rem;
-    display: flex;
-    gap: 3rem;
-    align-items: flex-start;
-  }
-  .ap-photo img {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    object-fit: cover;
-    display: block;
-  }
-  .ap-bio h1 {
-    font-size: 2.4rem;
-    font-weight: 100;
-    letter-spacing: 0.02em;
-    font-family: Lato, sans-serif;
-    margin-bottom: 1.4rem;
-    color: #1a1a1a;
-  }
-  .ap-bio p {
-    font-size: 12pt;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    font-family: Lato, sans-serif;
-    color: #2c2c2c;
-  }
-  .ap-bio a { color: #2a8a90; text-decoration: none; }
-  .ap-bio a:hover { text-decoration: underline; }
-  .ap-social {
-    margin-top: 1.6rem;
-    display: flex;
-    gap: 1.4rem;
-    flex-wrap: wrap;
-  }
-  .ap-social a {
-    color: #2a8a90;
-    font-size: 0.92rem;
-    text-decoration: none;
-    font-family: Lato, sans-serif;
-  }
-  .ap-social a:hover { text-decoration: underline; }
-  @media (max-width: 600px) {
-    .ap-main { flex-direction: column; align-items: center; }
-    .ap-bio h1 { font-size: 1.8rem; text-align: center; }
-  }
-</style>
+<header class="ap-header">
+  <div class="ap-header-inner">
+    <a href="/my-website/" class="ap-site-name">Alessia Papini</a>
+    <nav class="ap-nav">
+      <a href="/my-website/">Home</a>
+      <a href="/my-website/research/">Research</a>
+      <a href="/my-website/teaching/">Teaching</a>
+    </nav>
+  </div>
+</header>
+
 <div class="ap-main">
   <div class="ap-photo">
     <img src="/my-website/img/photo.jpg" alt="Alessia Papini">

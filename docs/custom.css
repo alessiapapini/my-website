@@ -1,27 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 13pt;
-  color: #2c2c2c;
   background-color: #f0f7f7;
+  color: #2c2c2c;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 13pt;
-  line-height: 1.7;
-  margin-bottom: 1.2rem;
-}
+/* Hide the theme's default navbar */
+.navbar { display: none !important; }
 
-h1 {
-  font-family: 'Lato', sans-serif;
+/* Custom header */
+.ap-header {
+  background-color: #2a8a90;
+  padding: 0;
+}
+.ap-header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ap-site-name {
+  color: white;
+  font-size: 1.2rem;
   font-weight: 300;
+  letter-spacing: 0.04em;
+  text-decoration: none;
 }
+.ap-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.ap-nav a:hover { opacity: 1; text-decoration: underline; }
 
-.container p {
+/* Homepage */
+.ap-main {
+  max-width: 860px;
+  margin: 3.5rem auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+.ap-photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+.ap-bio h1 {
+  font-size: 2.2rem;
+  font-weight: 100;
+  letter-spacing: 0.02em;
   margin-bottom: 1.4rem;
-  line-height: 1.7;
+  color: #1a1a1a;
 }
+.ap-bio p {
+  font-size: 12pt;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #2c2c2c;
+}
+.ap-bio a { color: #2a8a90; text-decoration: none; }
+.ap-bio a:hover { text-decoration: underline; }
+.ap-social { margin-top: 1.6rem; display: flex; gap: 1.4rem; flex-wrap: wrap; }
+.ap-social a { color: #2a8a90; font-size: 0.92rem; text-decoration: none; }
+.ap-social a:hover { text-decoration: underline; }
 
-body, p, a, div, li {
-  font-family: 'Lato', sans-serif !important;
+/* Inner pages */
+.ap-content {
+  max-width: 860px;
+  margin: 3.5rem auto;
+  padding: 0 2rem;
+}
+.ap-content h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+.ap-section {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin: 2.4rem 0 1rem;
+}
+.ap-paper, .ap-course { margin-bottom: 1.4rem; }
+.ap-paper p, .ap-course p { font-size: 12pt; line-height: 1.75; margin: 0.15rem 0; color: #2c2c2c; }
+.ap-paper strong, .ap-course strong { color: #1a1a1a; }
+.ap-paper a, .ap-course a { color: #2a8a90; text-decoration: none; }
+.ap-paper a:hover, .ap-course a:hover { text-decoration: underline; }
+.ap-pres { color: #999; font-size: 0.88rem; font-style: italic; }
+.ap-detail { color: #555; font-size: 0.92rem; }
+.ap-hr { border: none; border-top: 1px solid #d8ecec; margin: 1rem 0; }
+
+@media (max-width: 640px) {
+  .ap-main { flex-direction: column; align-items: center; }
+  .ap-header-inner { flex-direction: column; gap: 0.8rem; }
+  .ap-nav a:first-child { margin-left: 0; }
 }
