@@ -1,0 +1,73 @@
+{{ define "main" }}
+<div class="container research-page">
+  <h3 class="page-main-title">{{ .Title }}</h3>
+  <hr>
+  <div class="research-content">
+    {{ .Content }}
+  </div>
+</div>
+
+<style>
+/* Research page: Option A */
+
+/* Section headings */
+.research-content h2 {
+    color: #222222 !important;
+    font-size: 1.65rem !important;
+    font-weight: 700 !important;
+    line-height: 1.3;
+    margin-top: 3rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Individual paper entries */
+.research-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* Paper titles */
+.research-content p strong {
+    font-weight: 600;
+}
+
+/* Dividers between papers */
+.research-content hr {
+    border: 0;
+    border-top: 1px solid #d3dcdc;
+    margin: 2rem 0;
+}
+
+/* Teal reserved for links */
+.research-content a {
+    color: #2a8a90;
+    text-decoration: none;
+}
+
+.research-content a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<style>
+/* Page title: Option B */
+.page-main-title {
+    color: #20282a !important;
+    font-family: Lato, sans-serif;
+    font-size: 2.6rem !important;
+    font-weight: 300 !important;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .page-main-title {
+        font-size: 2.1rem !important;
+    }
+}
+</style>
+
+{{ end }}

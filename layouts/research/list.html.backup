@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container">
+  <h3>Working papers</h3>
+  <hr>
+
+  {{ $sections := split .RawContent "## Pre-PhD publications" }}
+  {{ index $sections 0 | markdownify }}
+
+  <h3>Pre-PhD publications</h3>
+  <hr>
+
+  {{ if gt (len $sections) 1 }}
+    {{ index $sections 1 | markdownify }}
+  {{ end }}
+</div>
+{{ end }}

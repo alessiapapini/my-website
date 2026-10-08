@@ -2,15 +2,10 @@
 title: "Alessia Papini"
 ---
 
+I'm a Ph.D. candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics).
 
+My research interests are in applied macroeconomics, fiscal policy, and household expectations.
 
-I am a PhD Researcher in Economics at the [European University Institute](https://www.eui.eu) supervised by [Giancarlo Corsetti](https://sites.google.com/site/giancarlocorsetti/) and [Alexander Ludwig](https://alexander-ludwig.com).
+My advisors are [Giancarlo Corsetti](https://sites.google.com/site/giancarlocorsetti/) and [Alexander Ludwig](https://alexander-ludwig.com).
 
-
-My research focuses on fiscal policy and household expectations.
-
-
-Here you can find my [research](/my-website/research/) and my [CV](/my-website/files/cv.pdf).
-
-
-**Research interests:** Fiscal Policy · Household Expectations · Applied Macroeconomics
+You can find my CV [here](/my-website/files/cv.pdf).
