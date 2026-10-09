@@ -1,4 +1,4 @@
-:root { --page-bg:#EAF3F3; --ink:#161616; --accent:#2a8a90; }
+:root { --page-bg:#DCEEEE; --ink:#161616; --accent:#2a8a90; }
 * { box-sizing:border-box; }
 html { background:var(--page-bg); min-height:100%; }
 body { margin:0; min-height:100vh; background:var(--page-bg); color:var(--ink); font-family:Georgia,"Times New Roman",serif; font-size:19px; line-height:1.35; }
